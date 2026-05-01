@@ -1,27 +1,27 @@
-# 🧠 NLP Toolkit
+#  NLP Toolkit
 
 > A production-quality, portfolio-ready Natural Language Processing toolkit implementing four core NLP techniques — with both a **CLI runner** and an **interactive Streamlit web UI** powered by a single shared backend.
 
 ---
 
-## ✨ Features
+##  Features
 
 | Module | Technique | Libraries |
 |--------|-----------|-----------|
-| 📊 **TF-IDF** | From-scratch + scikit-learn comparison | `scikit-learn`, pure Python |
-| 🔤 **Word2Vec** | Skip-gram embeddings + PCA visualisation | `gensim`, `sklearn` PCA |
-| 🏷️ **NER** | Named Entity Recognition with colour highlighting | `spaCy` |
-| 💬 **Sentiment** | VADER · TextBlob · DistilBERT side-by-side | `nltk`, `textblob`, `transformers` |
+|  **TF-IDF** | From-scratch + scikit-learn comparison | `scikit-learn`, pure Python |
+|  **Word2Vec** | Skip-gram embeddings + PCA visualisation | `gensim`, `sklearn` PCA |
+|  **NER** | Named Entity Recognition with colour highlighting | `spaCy` |
+|  **Sentiment** | VADER · TextBlob · DistilBERT side-by-side | `nltk`, `textblob`, `transformers` |
 
 **Architecture highlights:**
-- ✅ Shared `src/` backend — zero duplicate logic between CLI and UI
-- ✅ All backend functions return structured `dict` / `pd.DataFrame` (no print statements)
-- ✅ Module-level caching for heavy models (spaCy, Word2Vec, HuggingFace)
-- ✅ Clean separation of concerns: `src/` = logic, `app.py` = UI, `main.py` = CLI
+- Shared `src/` backend — zero duplicate logic between CLI and UI
+-  All backend functions return structured `dict` / `pd.DataFrame` (no print statements)
+-  Module-level caching for heavy models (spaCy, Word2Vec, HuggingFace)
+-  Clean separation of concerns: `src/` = logic, `app.py` = UI, `main.py` = CLI
 
 ---
 
-## 🖼️ Screenshots
+##  Screenshots
 
 > *Add screenshots here after running `streamlit run app.py`*
 
@@ -31,7 +31,7 @@
 
 ---
 
-## 🛠 Tech Stack
+##  Tech Stack
 
 - **Python 3.10+**
 - **Streamlit** — interactive web UI
@@ -46,7 +46,7 @@
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### 1. Clone & install
 
@@ -83,7 +83,7 @@ python main.py --skip-transformer
 
 ---
 
-## 📁 Folder Structure
+##  Folder Structure
 
 ```
 nlp-toolkit/
@@ -132,7 +132,7 @@ result = run_sentiment("I love this product!", use_transformer=False)
 
 ---
 
-## 📊 Module Details
+##  Module Details
 
 ### TF-IDF
 Two implementations compared side by side:
@@ -157,7 +157,7 @@ Three approaches, uniform output format:
 
 ---
 
-## 🔮 Future Improvements
+##  Future Improvements
 
 - [ ] Upload custom `.txt` / `.csv` corpora via Streamlit file uploader
 - [ ] Add `en_core_web_lg` / `en_core_web_trf` model selector for NER
