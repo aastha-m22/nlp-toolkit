@@ -179,4 +179,4 @@ MIT — free to use, modify, and distribute.
 
 ---
 
-*Built with ❤️ using Python, Streamlit, spaCy, gensim, and HuggingFace Transformers.*
+*Built with using Python, Streamlit, spaCy, gensim, and HuggingFace Transformers.*
