@@ -27,8 +27,7 @@
 
 | Home | TF-IDF | NER | Sentiment |
 |------|--------|-----|-----------|
-| ![home](docs/home.png) | ![tfidf](docs/tfidf.png) | ![ner](docs/ner.png) | ![sentiment](docs/sentiment.png) |
-
+| ![](images/home.png) | ![](images/home.png) | ![](images/ner.png) | ![](images/sentiment.png) |
 ---
 
 ##  Tech Stack
