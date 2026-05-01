@@ -1,0 +1,24 @@
+# NLP Toolkit — Python dependencies
+# Install with: pip install -r requirements.txt
+# spaCy model:  python -m spacy download en_core_web_sm
+
+# ── Web UI ──────────────────────────────────────────────────────────────────
+streamlit>=1.32.0
+
+# ── Data & ML ───────────────────────────────────────────────────────────────
+numpy>=1.24.0
+pandas>=2.0.0
+scikit-learn>=1.3.0
+
+# ── NLP libraries ────────────────────────────────────────────────────────────
+nltk>=3.8.1
+gensim>=4.3.0
+spacy>=3.7.0
+textblob>=0.17.1
+
+# ── Transformers ─────────────────────────────────────────────────────────────
+transformers>=4.38.0
+torch>=2.1.0           # required by HuggingFace pipeline
+
+# ── Visualisation ────────────────────────────────────────────────────────────
+matplotlib>=3.8.0
