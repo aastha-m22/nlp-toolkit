@@ -20,15 +20,20 @@
 -  Clean separation of concerns: `src/` = logic, `app.py` = UI, `main.py` = CLI
 
 ---
-
 ##  Screenshots
 
-> *Add screenshots here after running `streamlit run app.py`*
+###  Home
+![Home](images/home.png)
 
-| Home | TF-IDF | NER | Sentiment |
-|------|--------|-----|-----------|
-| ![](images/home.png) | ![](images/home.png) | ![](images/ner.png) | ![](images/sentiment.png) |
----
+###  Named Entity Recognition
+![NER](images/ner.png)
+
+###  Sentiment Analysis
+![Sentiment](images/sentiment.png)
+
+
+
+
 
 ##  Tech Stack
 
